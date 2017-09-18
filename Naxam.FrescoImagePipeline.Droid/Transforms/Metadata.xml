@@ -19,5 +19,21 @@
 		</method>
 	</add-node>
 	<attr path="/api/package[@name='com.facebook.imagepipeline.producers']/class[@name='BitmapMemoryCacheKeyMultiplexProducer']/method[@name='getKey' and count(parameter)=1 and parameter[1][@type='com.facebook.imagepipeline.producers.ProducerContext']]" name="managedName">GetKeyPair</attr>
+	<attr path="/api/package[@name='com.facebook.imagepipeline.producers']/class[@name='EncodedCacheKeyMultiplexProducer']/method[@name='getKey' and count(parameter)=1 and parameter[1][@type='com.facebook.imagepipeline.producers.ProducerContext']]" name="managedName">GetKeyPair</attr>
 	<attr path="/api/package[@name='com.facebook.imagepipeline.memory']/class[@name='GenericByteArrayPool']/method[@name='alloc' and count(parameter)=1 and parameter[1][@type='int']]" name="managedName">AllocBytes</attr>
+	<attr path="/api/package[@name='com.facebook.imagepipeline.producers']/class[@name='HttpUrlConnectionNetworkFetcher']/method[@name='createFetchState' and count(parameter)=2 and parameter[1][@type='com.facebook.imagepipeline.producers.Consumer&lt;com.facebook.imagepipeline.image.EncodedImage&gt;'] and parameter[2][@type='com.facebook.imagepipeline.producers.ProducerContext']]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='com.facebook.imagepipeline.memory']/class[@name='NativeMemoryChunkPool']/method[@name='alloc' and count(parameter)=1 and parameter[1][@type='int']]" name="managedName">AllocChunk</attr>
+	<attr path="/api/package[@name='com.facebook.imagepipeline.memory']/class[@name='NativePooledByteBufferOutputStream']/method[@name='toByteBuffer' and count(parameter)=0]" name="managedName">ToNativePooledByteBuffer</attr>
+	<attr path="/api/package[@name='com.facebook.imagepipeline.producers']/class[@name='HttpUrlConnectionNetworkFetcher']/method[@name='fetch' and count(parameter)=2 and parameter[1][@type='com.facebook.imagepipeline.producers.FetchState'] and parameter[2][@type='com.facebook.imagepipeline.producers.NetworkFetcher.Callback']]/parameter[1]" name="managedType">Java.Lang.Object</attr>
+
+	<attr path="/api/package[@name='com.facebook.imagepipeline.producers']/class[@name='BitmapMemoryCacheGetProducer']/field[@name='PRODUCER_NAME']" name="managedName">PRODUCER_NAME</attr>
+	<attr path="/api/package[@name='com.facebook.imagepipeline.producers']/class[@name='BitmapMemoryCacheProducer']/field[@name='PRODUCER_NAME']" name="managedName">PRODUCER_NAME</attr>
+	<attr path="/api/package[@name='com.facebook.imagepipeline.producers']/class[@name='DataFetchProducer']/field[@name='PRODUCER_NAME']" name="managedName">PRODUCER_NAME</attr>
+	<attr path="/api/package[@name='com.facebook.imagepipeline.producers']/class[@name='LocalAssetFetchProducer']/field[@name='PRODUCER_NAME']" name="managedName">PRODUCER_NAME</attr>
+	<attr path="/api/package[@name='com.facebook.imagepipeline.producers']/class[@name='LocalContentUriFetchProducer']/field[@name='PRODUCER_NAME']" name="managedName">PRODUCER_NAME</attr>
+	<attr path="/api/package[@name='com.facebook.imagepipeline.producers']/class[@name='LocalContentUriThumbnailFetchProducer']/field[@name='PRODUCER_NAME']" name="managedName">PRODUCER_NAME</attr>
+	<attr path="/api/package[@name='com.facebook.imagepipeline.producers']/class[@name='LocalFileFetchProducer']/field[@name='PRODUCER_NAME']" name="managedName">PRODUCER_NAME</attr>
+	<attr path="/api/package[@name='com.facebook.imagepipeline.producers']/class[@name='LocalResourceFetchProducer']/field[@name='PRODUCER_NAME']" name="managedName">PRODUCER_NAME</attr>
+	<attr path="/api/package[@name='com.facebook.imagepipeline.producers']/class[@name='PostprocessedBitmapMemoryCacheProducer']/field[@name='PRODUCER_NAME']" name="managedName">PRODUCER_NAME</attr>
+	<attr path="/api/package[@name='com.facebook.imagepipeline.producers']/class[@name='QualifiedResourceFetchProducer']/field[@name='PRODUCER_NAME']" name="managedName">PRODUCER_NAME</attr>
 </metadata>
