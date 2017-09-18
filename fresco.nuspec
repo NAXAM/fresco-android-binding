@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Required elements-->
+        <id>Naxam.Stripe.Droid</id>
+        <version>5.0.0.1</version>
+        <authors>NAXAM CO.,LTD</authors>
+        <owners>NAXAM CO.,LTD</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <title>Naxam - Stripe for Android</title>
+        <summary>Xamarin.Android Binding Library - Stripe</summary>
+        <description>Xamarin.Android Binding Library - Stripe</description>
+        <releaseNotes>Stripe Android v5.0.0</releaseNotes>
+        <iconUrl>https://avatars3.githubusercontent.com/u/856813</iconUrl>
+        <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/NAXAM/xand-stripe</projectUrl>
+        <copyright>Copyright (c) 2017 NAXAM</copyright>
+        <tags>Xamarin.Android, stripe</tags>
+        <dependencies>
+            <dependency id="Xamarin.Android.Support.Annotations" version="25.4.0.2" />
+            <dependency id="Xamarin.Android.Support.Design" version="25.4.0.2" />
+            <dependency id="Xamarin.Android.Support.v7.AppCompat" version="25.4.0.2" />
+        </dependencies>
+    </metadata>
+    <!-- Optional 'files' node -->
+    <files>
+        <file src="Naxam.Stripe.Droid/bin/Release/Naxam.Stripe.Droid.dll" target="lib/MonoAndroid10/Naxam.Stripe.Droid.dll" />
+    </files>
+</package>

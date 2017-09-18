@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naxam.FrescoImagePipeline.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naxam.Fresco.Droid", "Naxam.Fresco.Droid\Naxam.Fresco.Droid.csproj", "{23E54401-8038-4553-9265-A265A0324E91}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demo", "demo", "{E1452202-CF1E-4AC4-8F33-5D8CAA7B3D9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrescoQs", "demo\FrescoQs\FrescoQs.csproj", "{4DC3B2C0-9EF8-4773-86A7-2CA227E100FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,5 +41,12 @@ Global
 		{23E54401-8038-4553-9265-A265A0324E91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23E54401-8038-4553-9265-A265A0324E91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23E54401-8038-4553-9265-A265A0324E91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DC3B2C0-9EF8-4773-86A7-2CA227E100FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DC3B2C0-9EF8-4773-86A7-2CA227E100FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DC3B2C0-9EF8-4773-86A7-2CA227E100FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DC3B2C0-9EF8-4773-86A7-2CA227E100FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4DC3B2C0-9EF8-4773-86A7-2CA227E100FF} = {E1452202-CF1E-4AC4-8F33-5D8CAA7B3D9C}
 	EndGlobalSection
 EndGlobal
