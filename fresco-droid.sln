@@ -1,0 +1,35 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naxam.FrescoCore.Droid", "Naxam.FrescoCore.Droid\Naxam.FrescoCore.Droid.csproj", "{2C006EDD-502B-4ADB-A0D6-C98720CB57F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naxam.FrescoDrawee.Droid", "Naxam.FrescoDrawee.Droid\Naxam.FrescoDrawee.Droid.csproj", "{37B3CB79-34E1-418E-823F-8CEB09EDA29D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naxam.FrescoImagePipelineBase.Droid", "Naxam.FrescoImagePipelineBase.Droid\Naxam.FrescoImagePipelineBase.Droid.csproj", "{E5583025-8D6D-4F07-89F9-8FC85104CBDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naxam.FrescoImagePipeline.Droid", "Naxam.FrescoImagePipeline.Droid\Naxam.FrescoImagePipeline.Droid.csproj", "{5E46E770-FD70-420B-8DA4-95A20E9C3BE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C006EDD-502B-4ADB-A0D6-C98720CB57F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C006EDD-502B-4ADB-A0D6-C98720CB57F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C006EDD-502B-4ADB-A0D6-C98720CB57F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C006EDD-502B-4ADB-A0D6-C98720CB57F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37B3CB79-34E1-418E-823F-8CEB09EDA29D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37B3CB79-34E1-418E-823F-8CEB09EDA29D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37B3CB79-34E1-418E-823F-8CEB09EDA29D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37B3CB79-34E1-418E-823F-8CEB09EDA29D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5583025-8D6D-4F07-89F9-8FC85104CBDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5583025-8D6D-4F07-89F9-8FC85104CBDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5583025-8D6D-4F07-89F9-8FC85104CBDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5583025-8D6D-4F07-89F9-8FC85104CBDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E46E770-FD70-420B-8DA4-95A20E9C3BE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E46E770-FD70-420B-8DA4-95A20E9C3BE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E46E770-FD70-420B-8DA4-95A20E9C3BE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E46E770-FD70-420B-8DA4-95A20E9C3BE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

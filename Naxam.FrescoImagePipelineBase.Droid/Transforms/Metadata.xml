@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<attr path="/api/package[@name='com.facebook.imagepipeline.common']/class[@name='BytesRange']/field[@name='to']" name="managedName">_To</attr>
+	<attr path="/api/package[@name='com.facebook.imagepipeline.common']/class[@name='BytesRange']/field[@name='from']" name="managedName">_From</attr>
+</metadata>

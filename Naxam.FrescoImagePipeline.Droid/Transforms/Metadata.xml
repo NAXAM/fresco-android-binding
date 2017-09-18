@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<attr path="/api/package[@name='com.facebook.imagepipeline.datasource']/class[@name='BaseBitmapDataSubscriber']/method[@name='onNewResultImpl' and count(parameter)=1 and parameter[1][@type='com.facebook.datasource.DataSource&lt;com.facebook.common.references.CloseableReference&lt;com.facebook.imagepipeline.image.CloseableImage&gt;&gt;']]" name="visibility">protected</attr>
+	<attr path="/api/package[@name='com.facebook.imagepipeline.datasource']/class[@name='BaseListBitmapDataSubscriber']/method[@name='onNewResultImpl' and count(parameter)=1 and parameter[1][@type='com.facebook.datasource.DataSource&lt;java.util.List&lt;com.facebook.common.references.CloseableReference&lt;com.facebook.imagepipeline.image.CloseableImage&gt;&gt;&gt;']]" name="visibility">protected</attr>
+	<attr path="/api/package[@name='com.facebook.imagepipeline.platform']/class[@name='DalvikPurgeableDecoder']" name="visibility">public</attr>
+	<attr path="/api/package[@name='com.facebook.imagepipeline.memory']/class[@name='BitmapPool']/method[@name='alloc' and count(parameter)=1 and parameter[1][@type='int']]" name="managedName">AllocBitmap</attr>
+	<add-node path="/api/package[@name='com.facebook.imagepipeline.producers']/class[@name='BaseNetworkFetcher']">
+		<method abstract="true" deprecated="not deprecated" final="false" name="createFetchState" native="false" return="FETCH_STATE" static="false" synchronized="false" visibility="public">
+			<parameter name="p0" type="com.facebook.imagepipeline.producers.Consumer&lt;com.facebook.imagepipeline.image.EncodedImage&gt;">
+			</parameter>
+			<parameter name="p1" type="com.facebook.imagepipeline.producers.ProducerContext">
+			</parameter>
+		</method>
+		<method abstract="true" deprecated="not deprecated" final="false" name="fetch" native="false" return="void" static="false" synchronized="false" visibility="public">
+			<parameter name="p0" type="FETCH_STATE">
+			</parameter>
+			<parameter name="p1" type="com.facebook.imagepipeline.producers.NetworkFetcher.Callback">
+			</parameter>
+		</method>
+	</add-node>
+	<attr path="/api/package[@name='com.facebook.imagepipeline.producers']/class[@name='BitmapMemoryCacheKeyMultiplexProducer']/method[@name='getKey' and count(parameter)=1 and parameter[1][@type='com.facebook.imagepipeline.producers.ProducerContext']]" name="managedName">GetKeyPair</attr>
+	<attr path="/api/package[@name='com.facebook.imagepipeline.memory']/class[@name='GenericByteArrayPool']/method[@name='alloc' and count(parameter)=1 and parameter[1][@type='int']]" name="managedName">AllocBytes</attr>
+</metadata>
