@@ -2,27 +2,27 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <!-- Required elements-->
-        <id>Naxam.Fresco.Droid</id>
+        <id>Naxam.FrescoImagePipelineBase.Droid</id>
         <version>1.5.0</version>
         <authors>NAXAM CO.,LTD</authors>
         <owners>NAXAM CO.,LTD</owners>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <title>Naxam - Fresco for Android</title>
-        <summary>Xamarin.Android Binding Library - Fresco</summary>
-        <description>Xamarin.Android Binding Library - Fresco</description>
-        <releaseNotes>Fresco Android v1.5.0</releaseNotes>
+        <title>Naxam - Fresco ImagePipelineBase for Android</title>
+        <summary>Xamarin.Android Binding Library - Fresco ImagePipelineBase</summary>
+        <description>Xamarin.Android Binding Library - Fresco ImagePipelineBase</description>
+        <releaseNotes>Fresco Android v1.5.0 - ImagePipelineBase</releaseNotes>
         <iconUrl>https://github.com/NAXAM/fresco-android-binding/tree/master/art/fresco_logo.png</iconUrl>
         <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
         <projectUrl>https://github.com/NAXAM/fresco-android-binding</projectUrl>
         <copyright>Copyright (c) 2017 NAXAM</copyright>
         <tags>Xamarin.Android, fresco</tags>
         <dependencies>
-            <dependency id="Naxam.FrescoImagePipeline.Droid" version="1.5.0" />
-            <dependency id="Naxam.FrescoDrawee.Droid" version="1.5.0" />
+            <dependency id="Bolts" version="1.4.0.1" />
+            <dependency id="Naxam.FrescoCore.Droid" version="1.5.0" />
         </dependencies>
     </metadata>
     <!-- Optional 'files' node -->
     <files>
-        <file src="Naxam.Fresco.Droid/bin/Release/Naxam.Fresco.Droid.dll" target="lib/MonoAndroid10/Naxam.Fresco.Droid.dll" />
+        <file src="Naxam.FrescoImagePipelineBase.Droid/bin/Release/Naxam.FrescoImagePipelineBase.Droid.dll" target="lib/MonoAndroid10/Naxam.FrescoImagePipelineBase.Droid.dll" />
     </files>
 </package>
